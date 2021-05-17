@@ -12,13 +12,13 @@ def finalResult(x,y):
 
 
 def  getResult(x, y):
-    if x >= 3 and y>= 5 :
-        wynik = getFunction(x,y)
-        return print(wynik)
+    if(x >= 3 and y>= 5) :
 
-    elif x >= 6 and y >= 8 :
-        wynik2 = finalResult(x,y)
-        return print(wynik2)
+        return getFunction(x,y)
+
+    else:
+
+        return finalResult(x,y)
 
 
 final = getResult(x,y)
